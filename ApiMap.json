@@ -1,0 +1,38 @@
+{
+    "settings": {
+        "defaultRegions": ["us_west_2"],
+        "defaultReason": "just because"
+    },
+
+    "mappings": {
+        "CreateSignatureSeppression": {
+            "Path": "suppressions/signatures",
+            "Request Type":     "POST",
+            "Data Structure":   { 
+                                    "attributes":   {
+                                        "reason": "<defaultReason>",
+                                        "resource": "",
+                                        "regions": "<defaultRegions>",
+                                        "external_account_ids": "",
+                                        "signature_ids": ""
+                                    },
+                                    "type":"suppressions"
+                                }
+        },
+
+        "ListSeppressions": {
+            "Path": "suppressions",
+            "Request Type":     "GET"
+        },
+
+        "ShowSeppression": {
+            "Path": "suppressions/[id]",
+            "Request Type":     "GET"
+        },
+
+        "ListSignatures": {
+            "Path": "signatures",
+            "Request Type":     "GET"
+        }
+    }
+}
