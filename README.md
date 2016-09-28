@@ -1,6 +1,6 @@
 # Evident.io-Python-SDK
 
-This is a SDK I wrote for Evident.IO. I wrote it because they didn't have a SDK written in Python. They acknowledged what I did and rewarded me with some goodies but nothing came of it after that (from what I know). 
+This is a SDK I wrote for Evident.IO's web API. I wrote it because they didn't have a SDK written in Python. They acknowledged what I did and rewarded me with some goodies but nothing came of it after that (from what I know). 
 
 ## Feature Highlights
 
